@@ -28,7 +28,8 @@
 – Green for money added     
 – Deleting history essentially reverts the transaction and restores your balance  
 ‣ Creating names will add (a number) if the name already exists:      
-– I.E. if "Mall" is already a budget name, naming new "Mall" budgets results in "Mall (1)", "Mall (2)", etc.  ‣ Number Formatter:      
+– I.E. if "Mall" is already a budget name, naming new "Mall" budgets results in "Mall (1)", "Mall (2)", etc.  
+‣ Number Formatter:      
 – Used a regular expression to ensure that user inputs cannot exceed past 2 decimal places      
 – Dollar amounts include comma separators and a $ sign in the front  
 ‣ Programmatically utilized alerts to record user input  
